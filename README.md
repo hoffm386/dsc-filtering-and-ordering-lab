@@ -1,15 +1,15 @@
-# Filtering and Ordering - Lab
+# Filtering, Ordering, and Limiting Data with SQL - Lab
 
 
 ## Introduction
 In this lab, you will practice writing SQL `SELECT` queries that limit results based on conditions, using `WHERE`, `ORDER BY`, and `LIMIT`.
 
 ## Objectives
-You will be able to:
-* Write SQL queries to filter and order results
+You will practice the following:
+
 * Order the results of your queries by using `ORDER BY` (`ASC` & `DESC`)
 * Limit the number of records returned by a query using `LIMIT`
-* Filter results using `BETWEEN` and `IS NULL`
+* Write SQL queries to filter and order results
 
 ## The Data
 
@@ -46,7 +46,10 @@ Display the outputs for each of the following query descriptions.
 
 ### Select the name and breed for all female dogs
 
-*Hint:* use `WHERE` with the `=` operator
+<details>
+    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <p>Use <code>WHERE</code> with the <code>=</code> operator</p>
+</details>
 
 
 ```python
@@ -55,7 +58,10 @@ Display the outputs for each of the following query descriptions.
 
 ### Select the number of dogs that do not have a name
 
-*Hint:* use `COUNT` and `IS NULL`
+<details>
+    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <p>Use <code>COUNT</code> and <code>IS NULL</code></p>
+</details>
 
 
 ```python
@@ -64,7 +70,10 @@ Display the outputs for each of the following query descriptions.
 
 ### Select the names of all dogs that contain the double letters `ff` or `oo`
 
-*Hint:* use `LIKE`, `%`, and `OR`
+<details>
+    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <p>Use <code>LIKE</code>, <code>%</code>, and <code>OR</code></p>
+</details>
 
 
 ```python
@@ -73,7 +82,10 @@ Display the outputs for each of the following query descriptions.
 
 ### Select the names of all dogs listed in alphabetical order.  Notice that SQL lists the nameless dog first.
 
-*Hint:* use `ORDER BY`
+<details>
+    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <p>Use <code>ORDER BY</code></p>
+</details>
 
 
 ```python
@@ -89,7 +101,10 @@ Display the outputs for each of the following query descriptions.
 
 ### Select the oldest dog's name, age, and temperament
 
-*Hint:* use `ORDER BY` with `LIMIT`
+<details>
+    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <p>Use <code>ORDER BY</code> with <code>LIMIT</code></p>
+</details>
 
 
 ```python
@@ -105,7 +120,10 @@ Display the outputs for each of the following query descriptions.
 
 ### Select the name and breed of the dogs who are between five and ten years old, ordered from oldest to youngest
 
-*Hint:* use `WHERE` with `BETWEEN`
+<details>
+    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <p>Use <code>WHERE</code> with <code>BETWEEN</code></p>
+</details>
 
 
 ```python
